@@ -16,10 +16,14 @@ Among the whole set of images, 84 were manually annotated for semantic segmentat
 Labeled images are already divided into training and test sets to produce results comparable with the refencences [1], [2], and [3].
 
 ## Acknowledgments
-This work is funded by the project S3-CAV "Simultaneous Safety and Surveying for Collaborative Agricultural Vehicles", ERA-NET ICT-AGRI2 (Grant No. 29839). The authors are also grateful to Stefan Rilling, Peter Frölich and Michael Nielsen for the valuable support in performing the experiments and gathering the sensory data.
+This work is funded by the project S3-CAV "Simultaneous Safety and Surveying for Collaborative Agricultural Vehicles", ERA-NET ICT-AGRI2 (Grant No. 29839).
 
 ## Credits
+Experiments were conceived and performed by Annalisa Milella (CNR-STIIMA) and Giulio Reina (Politecnico of Bari). Roberto Marani (CNR-STIIMA) and Antonio Petitti (CNR-STIIMA) contributed to dataset generation and maintenance by software development and data processing. The valuable support of Stefan Rilling (Fraunhofer-IAIS), Michael Nielsen (Danish Technological Institute) and Peter Frölich (AgriCircle) in performing the experiments and gathering the sensory data is also gratefully acknowledged.
 
+Contact person: Annalisa Milella - annalisa.milella@stiima.cnr.it
+
+National Research Council of Italy (CNR), Institute of Intelligent Systems and Technologies for Advanced Manufacturing (STIIMA), via Amendola 122 D/O, 70126, Bari, Italy
 
 ## Cite this dataset
 Milella, A., Marani, R., Petitti, A., Reina, G. (2019) In-field high throughput grapevine phenotyping with a consumer-grade depth camera. Computers and Electronics in Agriculture, 156, 293-306.
