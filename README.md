@@ -6,14 +6,17 @@ This dataset is made of natural images acquired in-field by the Intel RealSense 
 
 The Intel RealSense R200 is on a mobile platform (Niko caterpillar, Bühl/Baden, Germany), guided in a commercial vineyard of a white variety of wine grape (Räuschling) in Switzerland (N47°14’27.6”, E8°48’25.2”). Datasets were completed in two days of acquisitions, during which the vehicle followed specific paths within the parallel rows of grapes (row spacing between 1.5 and 2 m) at an average speed of 1.5 m/s. The camera pointed laterally at the rows of grapevines at a distance in the range between 0.75 and 1 m, producing video streams at a framerate of 5 fps. 
 
-Among the whole set of images, 84 were manually annotated for semantic segmentation. Corrsponding ground truth maps are in false colors, referring to five classes of interest:
--	Bunch class (white segments): all pixels belonging to the grapevine bunches (of main interest along these lines);
--	Pole class (red segments): all pixels belonging to the vineyard poles;
--	Wood class (blue segments): all pixels belonging to wooden parts of the grapevines, such as trunks and cordons;
--	Leaves class (green segments): all pixels whose appearance can be referred to leaves;
--	Background class (black segments): all pixels not belonging to none of the previous classes.
+Among the whole set of images, 85 were manually annotated for semantic segmentation. Corresponding ground truth maps are in false colors, referring to five classes of interest:
+-	Bunch class (white segments): grapevine bunches;
+-	Pole class (red segments): vineyard poles;
+-	Wood class (blue segments): wooden parts of the grapevines, such as trunks and cordons;
+-	Leaves class (green segments): leaves;
+-	Background class (black segments): pixels not belonging to none of the previous classes.
 
-Labeled images are already divided into training and test sets to produce results comparable with the refencences [1], [2], and [3].
+Labeled images are already divided into training and test sets to produce results comparable with the refencences [1], [2], and [3]. 
+Two annotation strategies have been followed to produce two sets of labels:
+-	2020 - Object detection: all pixels belonging to the grapevine bunches and leaves are labeled with the highest priority vs. the other classes. This dataset is used in [1], [2], and [3] and well-applies for targets of yield estimation and/or biomass monitoring;lines);
+-	2022 - Object segmentation: images are labeled assuming that all classes have the same relevance.Labeling is performed to segment what eyes can see. This dataset is used in [3].
 
 ## Acknowledgments
 This work is funded by the project S3-CAV "Simultaneous Safety and Surveying for Collaborative Agricultural Vehicles", ERA-NET ICT-AGRI2 (Grant No. 29839).
