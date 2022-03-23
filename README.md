@@ -15,8 +15,8 @@ Among the whole set of images, 85 were manually annotated for semantic segmentat
 
 Labeled images are already divided into training and test sets to produce results comparable with the refencences [1], [2], and [3]. 
 Two annotation strategies have been followed to produce two sets of labels:
--	2020 - Object detection: all pixels belonging to the grapevine bunches and leaves are labeled with the highest priority vs. the other classes. This dataset is used in [1], [2], and [3] and well-applies for targets of yield estimation and/or biomass monitoring;lines);
--	2022 - Object segmentation: images are labeled assuming that all classes have the same relevance.Labeling is performed to segment what eyes can see. This dataset is used in [3].
+-	Bunch/leaves-detection-oriented (BLDO): all pixels belonging to the grapevine bunches and leaves are labeled with the highest priority vs. the other classes. This dataset is used in [1], [2], and [3] and well-applies for targets of yield estimation and/or biomass monitoring;lines);
+-	Object-segmentation-oriented (OSO): images are labeled assuming that all classes have the same relevance.Labeling is performed to segment what eyes can see. This dataset is used in [3].
 
 ## Acknowledgments
 This work is funded by the project S3-CAV "Simultaneous Safety and Surveying for Collaborative Agricultural Vehicles", ERA-NET ICT-AGRI2 (Grant No. 29839).
@@ -29,9 +29,10 @@ Contact person: Annalisa Milella - annalisa.milella@stiima.cnr.it
 National Research Council of Italy (CNR), Institute of Intelligent Systems and Technologies for Advanced Manufacturing (STIIMA), via Amendola 122 D/O, 70126, Bari, Italy
 
 ## Cite this dataset
-Milella, A., Marani, R., Petitti, A., Reina, G. (2019) In-field high throughput grapevine phenotyping with a consumer-grade depth camera. Computers and Electronics in Agriculture, 156, 293-306.
+-	Milella, A., Marani, R., Petitti, A., Reina, G. (2019) In-field high throughput grapevine phenotyping with a consumer-grade depth camera. Computers and Electronics in Agriculture, 156, 293-306.
+-	Casado-García, A., Heras, J., Milella, A., & Marani, R. (2022). Semi-Supervised Deep Learning and Low-Cost Cameras for the Semantic Segmentation of Natural Images in Viticulture. Submitted to Precision Agriculture.
 
 ## References
 1. Marani, R., Milella, A., Petitti, A., & Reina, G. (2021). Deep neural networks for grape bunch segmentation in natural images from a consumer-grade camera. Precision Agriculture, 22(2), 387-413.
 2. Heras, J., Marani, R., & Milella, A. (2021). Semi-supervised semantic segmentation for grape bunch identification in natural images. In Precision agriculture’21 (pp. 65-84). Wageningen Academic Publishers.
-3. To be completed
+3. Casado-García, A., Heras, J., Milella, A., & Marani, R. (2022). Semi-Supervised Deep Learning and Low-Cost Cameras for the Semantic Segmentation of Natural Images in Viticulture. Submitted to Precision Agriculture.
